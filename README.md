@@ -9,9 +9,15 @@ A video of it running on the bench
 ## Materials
 * **Dot matrix LED Module** - These are super basic 8x8 modules sometimes referred to as MAX7219 modules. You can buy them on single control boards or you can buy them in pre-made racks of 4 modules. I used these ones from Amazon UK in packs of 2  - https://www.amazon.co.uk/dp/B07YWRZ3FC but you can also find them on Amazon US like this https://www.amazon.com/dp/B07FFV537V - either way it's about £6/$8 for each rack of 4. You'll find that 3 in a row fits in 1U rack just right. They link together in series and can easily be soldered one to another to make a single rack of 96x8 LEDs.
 * **Arduino Uno** - primary controller for the code and signalling. You only need a very basic single microcontroller board and other boards like a RasPi Pico (different code needed) or a Arduino Nano will work just fine. No need for any networking, wifi etc etc, just the most basic IO board. About £10/$12 here.
-* **A rack mount or case** - I used a simple metal 1U rack blank for £2.50 from Amazon and cut a rectangular hole in it the right size and glued the array in, with the arduino hidden around the back. You can also 3d print a rackmount case for the array, example from the original inventor of this thing is here: https://www.printables.com/model/1167457-1u-rack-mount-wopr-leds-enclosure
+* **A rack mount or case** - I used a simple metal 1U rack blank for £2.50 from Amazon and cut a rectangular hole in it the right size and glued the array in, with the arduino hidden around the back. You can also 3d print a rackmount case for the array, example from the original inventor of this thing is here: [https://www.printables.com/model/1167457-1u-rack-mount-wopr-leds-enclosure](https://www.printables.com/model/1167457-1u-rack-mount-wopr-leds-enclosure/files)
 
 ## Building this Hardware
 
 
 ## Building this software
+
+## Credits
+Full credit to u/aforsberg who made v1 of this project. The main changes here are about the code being in Arduino format and having added a lot of flexibility - my code lets you change speed, percentage of LEDs lit, percentage of rows changing each time etc.
+His project can be seen here: https://www.reddit.com/r/homelab/comments/1iboomc/i_spent_a_few_days_designing_a_1u_bar_of_leds/
+
+Credit also to harddal @ github who initially provided arduino code conversion: https://github.com/harddal/WOPR-LED/tree/main
