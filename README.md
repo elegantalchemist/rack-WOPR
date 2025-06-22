@@ -14,9 +14,14 @@ A video of it running on the bench
 * **(Optional) - Desktop Case** Don't have a rack? Printables user [@VonIII_1710368](https://www.printables.com/@VonIII_1710368) has designed a desktop version which can be 3d printed https://www.printables.com/model/1238997-wopr-leds-enclosure-desktop-version
 
 ## Building this Hardware
-
+* **Connext 8x8 modules together** These modules can be daisy chained and each rack of 4 has clearly marked 'in' and 'out' connections. The ones I suggest above come with pre-soldered headers on the 'in' side only which can easily be inserted and bent into the 'out' side for a nice easy, stable soldered connection. Link 3 of the x4 modules together and you've got a rack of 12 modules for a total of 8x96 LEDs.
+* **Wire the Arduino in** either solder into the IO through holes or add header pins and use wired connectors, connect the Arduino to the 'in' side of the rack. The code here uses 5V, GND, CS to pin 3, DIN to pin 11 and CLK to pin 13
+* **Install in a casse/rack** some 3D print case options are here in this repository, or use the links to the printables where they can be found and looked at in more detail
 
 ## Building this software
+* **For Arduino** Connect the Arduino Uno/Pico to the Arduino IDE, create and upload the code file wopr.ino from this repository, and you should be done! You can play with the settings in the wopr.ino file to adjust speed or transitions, how many columns change each time and roughly what percentage of lights in a column are lit at any one time (probability based obviously so fairly variable but usually about right over the 768 LEDs on display.
+* **For RasPi** download and install the micropython firmware to your Pi, add the MAX7219.py file and use the boot.py file, upload to the RasPi and connect to the pins specified in the file (2, 3, 5), and that should be it. Similar control over probability and speed are found in this file by changing the numbers of the random options a bit
+* **For RasPi more complexity** same as above but use 'main.py' instead of 'boot.py' and this will change your display to use a variety of pretty patterns including the game of life and some which march back and forth, a bit closer to WOPR in the film itself.
 
 ## Credits
 Credit and thanks to the following people who made this before me:
