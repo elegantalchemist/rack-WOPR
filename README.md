@@ -11,6 +11,7 @@ A video of it running on the bench
 * **Arduino Uno** - primary controller for the code and signalling. You only need a very basic single microcontroller board and other boards like a RasPi Pico (different code needed) or a Arduino Nano will work just fine. No need for any networking, wifi etc etc, just the most basic IO board. About £10/$12 here.
 * **A rack mount or case** - I used this 3D print model https://www.printables.com/model/1231389-1u-wopr made by printables user [@Seth_215443](https://www.printables.com/@Seth_215443)
 * **(Optional) - Cheap case** You could instead take a cheap 1U metal rack blank (<£5) and either fix to the front with hot glue, or add perspex etc around the outside. Something like this: https://www.amazon.co.uk/dp/B01MFA1QBK
+* **(Optional) - Desktop Case** Don't have a rack? Printables user [@VonIII_1710368](https://www.printables.com/@VonIII_1710368) has designed a desktop version which can be 3d printed https://www.printables.com/model/1238997-wopr-leds-enclosure-desktop-version
 
 ## Building this Hardware
 
