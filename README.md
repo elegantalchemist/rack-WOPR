@@ -15,7 +15,7 @@ A video of it running on the bench
 
 ## Building this Hardware
 * **Connext 8x8 modules together** These modules can be daisy chained and each rack of 4 has clearly marked 'in' and 'out' connections. The ones I suggest above come with pre-soldered headers on the 'in' side only which can easily be inserted and bent into the 'out' side for a nice easy, stable soldered connection. Link 3 of the x4 modules together and you've got a rack of 12 modules for a total of 8x96 LEDs.
-* **Wire the Arduino in** either solder into the IO through holes or add header pins and use wired connectors, connect the Arduino to the 'in' side of the rack. The code here uses 5V, GND, CS to pin 3, DIN to pin 11 and CLK to pin 13
+* **Wire the Arduino in** either solder into the IO through holes or add header pins and use wired connectors, connect the Arduino to the 'in' side of the rack. The code here uses 5V, GND, CS to pin 3, DIN to pin 11 and CLK to pin 13 (caution - RasPi uses different pins - see below)
 * **Install in a casse/rack** some 3D print case options are here in this repository, or use the links to the printables where they can be found and looked at in more detail
 
 ## Building this software
