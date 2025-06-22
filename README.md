@@ -19,9 +19,11 @@ A video of it running on the bench
 ## Building this software
 
 ## Credits
-Full credit to u/aforsberg who made v1 of this project. The main changes here are about the code being in Arduino format and having added a lot of flexibility - my code lets you change speed, percentage of LEDs lit, percentage of rows changing each time etc.
+Credit and thanks to the following people who made this before me:
+
+[u/aforsberg](https://www.reddit.com/user/aforsberg/) who made v1 of this project . The main changes here are about the code being in Arduino format and having added a lot of flexibility - my code lets you change speed, percentage of LEDs lit, percentage of rows changing each time etc.
 His project can be seen here: https://www.reddit.com/r/homelab/comments/1iboomc/i_spent_a_few_days_designing_a_1u_bar_of_leds/
 
-Credit also to harddal @ github who initially provided arduino code conversion: https://github.com/harddal/WOPR-LED/tree/main
+harddal @ github who initially provided arduino code conversion: https://github.com/harddal/WOPR-LED/tree/main
 
-Credit to printables user [@Seth_215443](https://www.printables.com/@Seth_215443) who made a 1U rack mount 3d print as well as more complex python coding options for the RasPi here: https://github.com/sethvoltz/1u-wopr
+printables user [@Seth_215443](https://www.printables.com/@Seth_215443) who made a 1U rack mount 3d print as well as more complex python coding options for the RasPi here: https://github.com/sethvoltz/1u-wopr
