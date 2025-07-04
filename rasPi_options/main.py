@@ -20,12 +20,12 @@ display.brightness(1)
 class WOPRController:
   SECTIONS = {
     'shifter':   { 'x':  0, 'y': 0, 'w':  8, 'h': 8 },
-    'program-a': { 'x': 10, 'y': 0, 'w': 16, 'h': 4 },
-    'a-counter': { 'x': 10, 'y': 6, 'w': 16, 'h': 2 },
-    'life':      { 'x': 28, 'y': 0, 'w': 32, 'h': 8 },
-    'program-b': { 'x': 62, 'y': 0, 'w': 16, 'h': 4 },
-    'b-counter': { 'x': 62, 'y': 6, 'w': 16, 'h': 2 },
-    'random':    { 'x': 80, 'y': 0, 'w': 16, 'h': 8 },
+    'program-a': { 'x':  8, 'y': 0, 'w': 16, 'h': 4 },
+    'a-counter': { 'x':  8, 'y': 6, 'w': 16, 'h': 2 },
+    'life':      { 'x': 24, 'y': 0, 'w': 32, 'h': 8 },
+    'program-b': { 'x': 56, 'y': 0, 'w': 16, 'h': 4 },
+    'b-counter': { 'x': 56, 'y': 6, 'w': 16, 'h': 2 },
+    'random':    { 'x': 72, 'y': 0, 'w': 24, 'h': 8 },
   }
 
   SEEDS = {
