@@ -6,6 +6,10 @@ A fast and cheap project to make a 1U rack filler with a WOPR-inspired blinking 
 
 A video of it running on the bench
 
+![Gif of more complex RasPi options](https://raw.githubusercontent.com/elegantalchemist/rack-WOPR/refs/heads/main/photos/gif%20complex%20option.gif)
+
+A video of it running on the bench
+
 ## Materials
 * **Dot matrix LED Module** - These are super basic 8x8 modules sometimes referred to as MAX7219 modules. You can buy them on single control boards or you can buy them in pre-made racks of 4 modules. I used these ones from Amazon UK in packs of 2  - https://www.amazon.co.uk/dp/B07YWRZ3FC but you can also find them on Amazon US like this https://www.amazon.com/dp/B07FFV537V - either way it's about £6/$8 for each rack of 4. You'll find that 3 in a row fits in 1U rack just right. They link together in series and can easily be soldered one to another to make a single rack of 96x8 LEDs.
 * **Arduino Uno** - primary controller for the code and signalling. You only need a very basic single microcontroller board and other boards like a RasPi Pico (different code needed, but has options for more complex coding using python) or a Arduino Nano will work just fine. No need for any networking, wifi etc etc, just the most basic IO board. About £10/$12 here.
